@@ -1,0 +1,38 @@
+.pane{
+ -fx-background-color: linear-gradient(from 0% 0% to
+    100% 100%, blue 0%, silver 100%);
+    }
+
+   .bottoes{
+  -fx-border: none;
+  -fx-color: white;
+  -fx-font-size: 10px;
+               }
+    .bottoes:hover {
+          -fx-background-color: #4CAF50; /* Green */
+          -fx-color: white;
+               }
+
+.cancel:hover{
+          -fx-background-color: red;
+}
+
+ .textfields{
+      -fx-border: 2px solid red;
+      -fx-border-radius: 50px;
+
+
+ }
+ .blue:hover{
+ -fx-background-color:#55B3F1;
+ }
+
+ .Cadastro{
+ -fx-text-decoration: underline;
+
+
+ }
+ .vboxclass{
+   -fx-border-color:#55B3F1;
+   -fx-border: 20px;
+ }

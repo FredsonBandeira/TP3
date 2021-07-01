@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imgs/download.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="200.0" prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Label layoutX="171.0" layoutY="44.0" prefHeight="62.0" prefWidth="59.0" text="Login">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutY="115.0" prefHeight="32.0" prefWidth="400.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="108.0" text="Username" />
+                  <TextField layoutX="84.0" layoutY="2.0" prefHeight="25.0" prefWidth="220.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="1.0" layoutY="168.0" prefHeight="32.0" prefWidth="400.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="108.0" text="Password" />
+                  <TextField layoutX="84.0" layoutY="2.0" prefHeight="25.0" prefWidth="220.0" />
+               </children>
+            </Pane>
+            <Button fx:id="buttonlogin" layoutX="174.0" layoutY="249.0" mnemonicParsing="false" onAction="#changeToMain" prefHeight="32.0" prefWidth="59.0" stylesheets="@../CSS/style.css" text="Login">
+               <styleClass>
+                  <String fx:value="bottoes" />
+                  <String fx:value="blue" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

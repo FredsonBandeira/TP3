@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.Controller.listar">
+
+    <headerText>
+
+    </headerText>
+    <content>
+        <GridPane hgap="10" prefHeight="92.0" prefWidth="902.0" vgap="10">
+            <Label text="Nome">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <GridPane.margin>
+               <Insets left="20.0" />
+            </GridPane.margin></Label>
+            <TextField fx:id="CampoNome" GridPane.rowIndex="1" />
+            <Label GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <Label stylesheets="@../CSS/style.css" text="Telefone" textAlignment="RIGHT" GridPane.columnIndex="1">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets left="5.0" />
+            </opaqueInsets>
+            <GridPane.margin>
+               <Insets left="20.0" />
+            </GridPane.margin>
+         </Label>
+         <Label stylesheets="@../CSS/style.css" text="Data Nascimento" textAlignment="RIGHT" GridPane.columnIndex="2">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets left="5.0" />
+            </opaqueInsets>
+         </Label>
+         <Label stylesheets="@../CSS/style.css" text="NIF" textAlignment="RIGHT" GridPane.columnIndex="3">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets left="5.0" />
+            </opaqueInsets>
+            <GridPane.margin>
+               <Insets left="20.0" />
+            </GridPane.margin>
+         </Label>
+         <Label text="BI" GridPane.columnIndex="4">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <GridPane.margin>
+               <Insets left="20.0" />
+            </GridPane.margin>
+         </Label>
+         <Label prefHeight="27.0" prefWidth="81.0" text="Profissão" GridPane.columnIndex="5">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </Label>
+         <Label prefHeight="27.0" prefWidth="81.0" text="Sexo" GridPane.columnIndex="6">
+            <font>
+               <Font size="18.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <GridPane.margin>
+               <Insets left="20.0" />
+            </GridPane.margin>
+         </Label>
+         <TextField fx:id="campoDescricao1" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         <TextField fx:id="campoDescricao11" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         <TextField fx:id="campoDescricao111" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+         <TextField fx:id="campoDescricao1111" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         <TextField fx:id="campoProfissao" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+         <TextField fx:id="campoDescricao11112" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+         <TextField fx:id="campoDescricao11113" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+         <TextField fx:id="campoDescricao2" GridPane.rowIndex="4" />
+         <TextField fx:id="campoTelefone" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <TextField fx:id="campoData" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         <TextField fx:id="campoNIF" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         <TextField fx:id="campoBI" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+         <TextField fx:id="campoSexo" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+         <columnConstraints>
+            <ColumnConstraints maxWidth="359.0" minWidth="68.0" prefWidth="222.0" />
+            <ColumnConstraints maxWidth="359.0" minWidth="55.0" prefWidth="94.0" />
+            <ColumnConstraints maxWidth="425.0" minWidth="10.0" prefWidth="137.0" />
+            <ColumnConstraints maxWidth="653.0" minWidth="0.0" prefWidth="81.0" />
+            <ColumnConstraints maxWidth="713.0" minWidth="0.0" prefWidth="56.0" />
+            <ColumnConstraints maxWidth="826.0" minWidth="18.0" prefWidth="123.0" />
+            <ColumnConstraints maxWidth="826.0" minWidth="0.0" prefWidth="90.0" />
+            <ColumnConstraints maxWidth="826.0" minWidth="0.0" prefWidth="0.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </content>
+</DialogPane>
